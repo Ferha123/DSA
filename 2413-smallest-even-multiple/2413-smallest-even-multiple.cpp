@@ -1,13 +1,12 @@
 class Solution {
 public:
     int smallestEvenMultiple(int n) {
-       let x=0;
-       var i=1;
-switch(i)
-case "++x":
-x++;
-break;
-case ""
-
+       
+       if(n%2==0){
+        return n;
+       }
+       return 2*n;
     }
+
+    
 };
